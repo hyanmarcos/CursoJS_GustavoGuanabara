@@ -1,0 +1,60 @@
+body{
+    background: rgb(111, 111, 221);
+    margin: 0;
+    padding: 0;
+
+
+}
+
+h1{
+    font-family: 'Arial';
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    font-size: 3.5rem;
+
+    text-align: center;
+
+}
+
+section{
+    width: 450px;
+    height: 450px;
+
+    background: white;
+
+    border-radius: 2rem;
+
+    margin: auto;
+    margin-top: 4rem;
+
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.438);
+}
+
+h2{
+    font-family: 'Arial';
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+
+
+    text-align: center;
+}
+
+#msg{
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 1.3em;
+
+    text-align: center;
+    padding-top: 25px;
+}
+
+#foto{
+    margin-top: 50px;
+}
+
+div{
+    text-align: center;
+}
+
