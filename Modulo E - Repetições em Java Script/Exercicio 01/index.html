@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super contador</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <section>
+
+        <div>
+            <p>Início:
+                <input type="number" name="txtinicio" id="txtinicio" min="0">
+            </p>
+            <p>Fim:
+                <input type="number" name="txtfim" id="txtfim" min="0">
+            </p>
+            <p>Passos:
+                <input type="number" name="txtpassos" id="txtpassos" min="0">
+            </p>
+            
+            <p>
+                <input type="button" value="Contar" onclick="contar()">
+            </p>
+        </div>
+
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; Hyan Martins</p>
+    </footer>
+    
+</body>
+</html>
